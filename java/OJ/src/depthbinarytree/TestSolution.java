@@ -7,9 +7,15 @@ public class TestSolution {
 
 	
 	public static void main(String[] args) {
-		//TreeNode root = createTree2();
+		TreeNode node1 = createTree1();
+		TreeNode node2 = createTree2();
 		TreeNode oneNode = new TreeNode(1);
-		dfs(oneNode);
+		//dfs(oneNode);
+		Solution s = new Solution();
+		System.out.println(s.maxDepth2(node1));
+		System.out.println(s.maxDepth2(node2));
+		System.out.println(s.maxDepth2(oneNode));
+		System.out.println(s.maxDepth2(null));
 	}
 	/*
 	 *         1
