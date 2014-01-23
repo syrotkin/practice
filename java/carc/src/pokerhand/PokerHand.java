@@ -14,9 +14,9 @@ public class PokerHand {
 		}
 	}
 	
-	// True if 2, 2, 3, 3, 3 array of 5 integers
+	// True if there are 2 of one number and 3 of the other number in an array of 5 integers.
+	// assume length = 5
 	private static boolean isTrue(int[] array) {
-		// assume length  = 5
 		int int1 = array[0];
 		int int2 = array[0];
 		for (int i = 1; i < array.length; i++) {
